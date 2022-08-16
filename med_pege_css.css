@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home_page_bg {
+    background-color: #A66CFF;
+    padding: 40px;
+}
+
+.home_page_top_name {
+    font-weight: bold;
+    font-size: 44px;
+    text-shadow: 2px 4px 5px #59CE8F;
+}
+
+.home_page_main_name {
+    font-weight: bold;
+    color: #08FF39;
+    font-size: 44px;
+    text-shadow: 2px 4px 8px #BC2C4E;
+}
+
+.home_page_name {
+    font-weight: bold;
+    font-size: 44px;
+    text-shadow: 2px 4px 8px #FFDBA4;
+}
+
+.nav_all_word {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.home_page_img {
+    height: 300px;
+    width: 300px;
+    border-radius: 60px;
+    box-shadow: 10px 20px 30px black;
+}
+
+.home_page_para {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Monotype Corsiva;
+    color: #461111;
+    text-shadow: 8px 2px 6px #E8AA42;
+}
+
+.home_page_big_para {
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.home_page_button {
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.alline_right {
+    text-align: right;
+}
+
+.alline_center {
+    text-align: center;
+}
+
+.all_line {
+    border-width: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.home_contact_img {
+    height: 15px;
+    width: 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #554994;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg_color {
+    background-color: orange;
+    height: 100%;
+}
+
+.contact_page_top_name {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px;
+    text-shadow: 2px 4px 5px #59CE8F;
+}
+
+.all_align {
+    text-align: center;
+}
+
+.contact_heading {
+    font-size: 40px;
+    font-weight: normal;
+    font-family: Serif;
+}
+
+.contect_para {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Roboto;
+    border-radius: 10px;
+}
+
+.contact_button {
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 8px 5px 5px #59CE8F;
+}
+
+.contact_img {
+    height: 25px;
+    width: 25px;
+    margin: 15px;
+    box-shadow: 5px 5px 10px #554994;
+}
