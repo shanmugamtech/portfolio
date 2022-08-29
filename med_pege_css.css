@@ -1,98 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
-
-.home_page_bg {
-    background-color: #A66CFF;
-    padding: 40px;
+.nav_bar_my_name{
+   color: #11d95b;
+   font-size: 26px;
+   font-weight: bold;
+   text-shadow: 2px 2px 10px #22ff77;
 }
 
-.home_page_top_name {
-    font-weight: bold;
-    font-size: 44px;
-    text-shadow: 2px 4px 5px #59CE8F;
+a{
+   color: #ff1361;
+   font-weight: bold;
 }
-
-.home_page_main_name {
-    font-weight: bold;
-    color: #08FF39;
-    font-size: 44px;
-    text-shadow: 2px 4px 8px #BC2C4E;
-}
-
-.home_page_name {
-    font-weight: bold;
-    font-size: 44px;
-    text-shadow: 2px 4px 8px #FFDBA4;
-}
-
-.nav_all_word {
-    color: black;
-    font-size: 26px;
-    font-weight: bold;
+.alline_center {
+   text-align: center;
 }
 
 .home_page_img {
-    height: 300px;
-    width: 300px;
-    border-radius: 60px;
-    box-shadow: 10px 20px 30px black;
+   height: 300px;
+   width: 300px;
+   border-radius: 60px;
+   box-shadow: 10px 20px 30px black;
 }
 
-.home_page_para {
-    font-size: 26px;
-    font-weight: bold;
-    font-family: Monotype Corsiva;
-    color: #461111;
-    text-shadow: 8px 2px 6px #E8AA42;
+.home_page_name {
+   font-weight: bold;
+   font-size: 44px;
+   text-shadow: 2px 4px 8px #FFDBA4;
 }
 
-.home_page_big_para {
-    font-size: 26px;
-    font-weight: bold;
+/* animation of name Darasan*/
 
+.animate-charcter {
+   text-transform: uppercase;
+   background-image: linear-gradient(150deg,
+           #600009 0%,
+           #22ff77 29%,
+           #ff1361 67%,
+           #fff800 100%);
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200%;
+   color: #fff;
+   background-clip: text;
+   scrollbar-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+   font-size: 50px;
+   font-weight: bold;
+   border-style:;
 }
 
-.home_page_button {
-    font-weight: bold;
-    font-size: 20px;
-    height: 50px;
-    width: 160px;
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.alline_right {
-    text-align: right;
-}
-
-.alline_center {
-    text-align: center;
-}
-
-.all_line {
-    border-width: 10px;
-    border-radius: 5px;
-    color: black;
+@keyframes textclip {
+   to {
+       background-position: 200% center;
+   }
 }
 
 .home_contact_img {
-    height: 15px;
-    width: 15px;
-    margin: 10px;
-    box-shadow: 5px 5px 10px #554994;
+   height: 15px;
+   width: 15px;
+   margin: 10px;
+   box-shadow: 5px 5px 10px #554994;
+}
+
+.home_page_para {
+   font-size: 26px;
+   font-weight: bold;
+   font-family: Monotype Corsiva;
+   color: #11d95b;
+}
+
+.home_page_big_para {
+   font-size: 20px;
+   font-weight: normal;
+   color: #fff;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.alline_right {
+   text-align: right;
+}
+
+.home_page_button {
+   font-weight: bold;
+   font-size: 20px;
+   height: 50px;
+   width: 160px;
+   padding: 10px;
+   border-radius: 25px;
+}
+
+.all_line {
+   border-width: 10px;
+   border-radius: 5px;
+   color: black;
 }
 
 
 
+
+/*----contact icons ----*/
+
+
+.btn_center{
+   text-align: center;
+}
+.btn {
+    padding: 12px;
+    margin: .29em;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  body{
+	background-color: rgb(4, 25, 68);
+  }
+
+
+  /* changing background on mouse-over */
+  
 .bg_color {
     background-color: orange;
     height: 100%;
 }
 
-.contact_page_top_name {
-    font-weight: bold;
-    font-size: 40px;
-    padding: 30px;
-    text-shadow: 2px 4px 5px #59CE8F;
+.page_top_name {
+   font-weight: bold;
+   font-size: 40px;
+   padding: 30px;
+   text-shadow: 2px 4px 5px #59CE8F;
 }
 
 .all_align {
@@ -110,6 +148,7 @@
     font-weight: bold;
     font-family: Roboto;
     border-radius: 10px;
+    color: #fff;
 }
 
 .contact_button {
@@ -118,9 +157,48 @@
     box-shadow: 8px 5px 5px #59CE8F;
 }
 
-.contact_img {
-    height: 25px;
-    width: 25px;
-    margin: 15px;
-    box-shadow: 5px 5px 10px #554994;
+/* changing background on mouse-over */
+
+.btn:hover {
+    background-color: blueviolet;
+    font-size: small;
+    box-shadow: 3 4;
+    color: aqua;
+}
+
+.bg-white {
+    color: aliceblue;
+    text-align: center;
+}
+
+i {
+    font-size: 4;
+}
+
+#github {
+    color: rgb(0, 0, 0);
+}
+
+#linkedin {
+    color: navy;
+}
+
+#whatsapp {
+    color: chartreuse;
+}
+
+#telagram {
+    color: cornflowerblue;
+}
+
+#email {
+    color: brown;
+}
+
+#twitter {
+    color: cyan;
+}
+
+#instagram {
+    color: deeppink;
 }
