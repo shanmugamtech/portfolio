@@ -9,6 +9,7 @@
    font-size: 26px;
    font-weight: bold;
    text-shadow: 2px 2px 10px #22ff77;
+   
 }
 
 .nav_bar_elament{
@@ -30,6 +31,14 @@ a{
    font-size: 44px;
    text-shadow: 2px 4px 8px #FFDBA4;
 }
+.color_changing {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border-color: #000000;
+    border-width: 2px;
+}
+
 
 /* animation of name Darasan*/
 
@@ -162,6 +171,29 @@ a{
     font-family: sans-serif;
     font-weight: bold;
     padding-bottom: 5px;
+}
+
+.peg_back_line {
+    background: #30ff68;
+    height: 12px;
+    border-radius: 20px;
+}
+
+.peg_front_line {
+    background-color: #000000;
+    height: 12px;
+    border-radius: 20px;
+    font-size: 10px;
+    color: #fff800;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.img_edit{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
 }
 
 /*---achievement page---*/
@@ -332,7 +364,4 @@ i {
 .footer_page_list{
     list-style-type: none;
 }
-
-
-
-/*--Uploded at 30-01-2023 --*/
+<!--Edited on 04/08/2023-->
