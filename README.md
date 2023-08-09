@@ -7,7 +7,7 @@ This is I have done using HTML,CSS,JS,Botstrap
 ![image](https://github.com/shanmugamtech/portfolio/assets/107739312/e808beea-a873-4740-a559-dc4d0c487b5a)
 ![image](https://github.com/shanmugamtech/portfolio/assets/107739312/5944dd39-e9ce-4ed4-9e42-fb9448810173)
 
-2. ***Abot Page***
+2. ***About Page***
 
 ![image](https://github.com/shanmugamtech/portfolio/assets/107739312/60a59f40-8045-437c-a17c-4d7f3b88f06d)
 
