@@ -1,410 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>DARASAN R</title>
+    <!--Title-->
+    <meta charset="UTF-8">
+    <title>Darasan R</title>
+    <link rel="stylesheet" href="../images/darasanbg.jpg" />
+    <!--Bootstrap-->
     <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dryj2tavq/image/upload/v1661524855/-1_orig_1_d3qngi.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="Untitled-1.css"/>
-    <script src="Untitled-1.js"></script>
+    <!--CSS Connection-->
+    <link rel="stylesheet" href="../css/portfolio.css" />
+    <!--JS Connection-->
+    <script src="portfolio.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Add icon library -->
     <script src="https://kit.fontawesome.com/56e21f2804.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-
-
-<!--Nave Bar-->
-
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-info "  style="padding: 0.5;">
-    <a class="navbar-brand nav_bar_my_name" href="#">Darasan</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto ">
-            <a class="nav-link active nav_bar_elament" href="#homepagesection">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link nav_bar_elament" href="#aboutpagesection">About Me</a>
-            <a class="nav-link nav_bar_elament" href="#skillpagesection">Skills</a>
-            <a class="nav-link nav_bar_elament" href="#achievementpagesection">Achievement</a>
-            <a class="nav-link nav_bar_elament" href="#contectpagesection">contect</a>
-        </div>
-    </div>
-</nav>
-
-
-<!---Home Page-->
-
-
-<div class="home_page_bg pt-5" id="background">
-    <div id="homepagesection">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center d-md-none d-flex flex-column justify-content-center">
-                    <h1 class="home_page_name box_shadow_red" style=" color: white;" id="Im_color_change">I'm</h1>
-                    <h1 class="animate-charcter">darasan</h1>
-                    <div>
-                        <button class="btn color_changing shadow-lg" style="background-color: aliceblue;" onclick="switchBgColor_white()"></button>
-                        <button class="btn color_changing shadow-lg" style="background-color: #277BC0;" onclick="switchBgColor_nrml()"></button>
-                    </div>
-                </div>
-                <div class="col-12 col-md-5 text-center">
-                    <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1661524855/-1_orig_1_d3qngi.jpg" class="home_page_img w-100 shadow-lg mt-4" />
-                </div>
-                <div class="col-12 col-md-7 text-center">
-                    <div class="d-none d-md-block">
-                        <h1 class="home_page_name box_shadow_red" style=" color: white;" id="md_Im_color_change">I'm</h1>
-                        <h1 class="animate-charcter">darasan.r</h1>
-                        <div>
-                            <button class="btn color_changing shadow-lg" style="background-color: aliceblue;" onclick="switchBgColor_white()"></button>
-                            <button class="btn color_changing shadow-lg" style="background-color: #277BC0;" onclick="switchBgColor_nrml()"></button>
-                        </div>
-                    </div>
-                    <p class="home_page_para pt-4 text-left" style="border-color: #ffffff;" id="h_boder_color_change">Front-End Developer , Web Designer </p>
-                    <p class="home_page_big_para text-left" id="home_page_big_para_color_change"> I've pursuing my education with my love and Now I'm Ready to Apply My Skills into Real-Life Projects. Till now I have done Some Real - Life Work Experience, I’ve been a Lot of Exposure to The Technical Environment. I Loved to Do Work with Real Companies to Solve Real Problems.</p>
-                </div>
+    <div class="home_page_bg">
+        <!--Navigation Bar-->
+        <nav class="navbar pt-md-4">
+            <div class="brand_title animate">DARASAN
+                <span style="color: white;">.R</span>
             </div>
-        </div>
-        <div class="text-right pr-5 pt-5">
-            <a href="#contectpagesection">
-                <button type="button" class="home_page_button btn btn-outline-warning" >Hire Me ---></button><br><br><br>
+            <a href="#" class="toggle_button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </a>
-        </div>3
-        <div>
-            <hr class="all_line"><br>
-        </div>
-    </div>
-</div>
-
-
-<!--Abot Me Page-->
-
-
-<div class="home_page_bg" id="aboutMeBack">
-    <div id="aboutpagesection">
+            <div class="navbar_elem">
+                <ul>
+                    <li><a href="portfolio.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="skill.html">SKILLS</a></li>
+                    <li><a href="achievement.html">ACHIEVMENT</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Home Page-->
         <div class="container">
             <div class="row">
-                <h1 class="page_top_name text-left mt-3 pb-5 col-12 d-block d-md-none" style="color: #ffffff;" id="md_about_me_h1_change">About Me</h1>
-                <div class="col-12 col-md-5 text-center">
-                    <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1661524855/-1_orig_1_d3qngi.jpg" class="w-100 shadow-lg mt-md-5" style="border-radius: 50px;"/><br><br><br>
-                    <div class="d-none d-md-block mt-2 mb-5 text-center">
-                        <button class="btn btn-danger cv_button" target="_blank">
-                            <div class="d-flex flex-row justify-content-center">
-                                <p class="cv_button_para">View CV</p>
-                                <i class="fa fa-arrow-down cv_button_icon pt-2 pl-2"></i>
-                            </div>
-                        </button>
+                <div class="col-12 col-lg-5 order-1 order-lg-0">
+                    <div class="home_img mt-lg-5 mb-5 mr-lg-*">
+                        <img src="../images/talking.jpeg" alt="Darasan R">
                     </div>
                 </div>
-                <div class="col-12 col-md-7 mb-5">
-                    <h1 class="page_top_name text-md-center mt-3 mb-5 d-none d-md-block col-12" style="color: white;" id="about_me_h1_change">About Me</h1>
-                    <p class="home_page_big_para pb-4" id="about_page_big_para_change">Hi This Is Darasan R a Front-End Developer , Security Analyser I'm Perusing B.Tech C.S.E (Cyber  Security & Forensic ) At Kalasalingam University .I Like To Learn Coding's  With Advanced Technology</p>
+                <div class="col-12 col-lg-7 mt-3 pl-lg-5 order-0 order-lg-1 text-center text-lg-left d-lg-flex flex-column justify-content-center">
+                    <h1 style="color: #fff; " class="text-center text-lg-left">I'M
+                        <span class="name_h1" data-text="Darasan.R">Darasan.R</span>
+                    </h1>
+                    <div class="animated-text">
+                        an <span></span>
+                    </div>
                     <div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <i class="fa fa-baby-carriage " style="color: aliceblue; font-size:30px;"></i><br><br>
-                            <p class="icon_text pl-3">18</p>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <i class="fa fa-cake" style="color: aliceblue; font-size: 30px;"></i><br><br>
-                            <p class="icon_text pl-3">26/06/2004</p>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <i class="fa fa-home" style="color: aliceblue; font-size:30px;"></i><br><br>
-                            <p class="icon_text pl-3">Krishnagiri, Tamil Nadu</p>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <i class="fa fa-phone" style="color: aliceblue; font-size:30px;"></i><br><br>
-                            <p class="icon_text pl-3">+91 9361547043</p>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <i class="fa fa-mail-bulk" style="color: aliceblue; font-size:30px;"></i><br><br>
-                            <p class="icon_text pl-3">shanmugamdarasan@gmail.com</p>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <p style=" font-size:30px;">&#9962;</p>
-                            <p class="icon_text pl-3">Kalasalingam University</p>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <i class="fa fa-laptop-code" style="color: aliceblue; font-size:30px;"></i><br><br>
-                            <p class="icon_text pl-2">B.Tech-C.S.E-(Cyber Security and Forensic)</p>
-                        </div>
-                        <div class="d-flex flex-row  justify-content-start pt-3">
-                            <i class="fa fa-calendar " style="color: aliceblue; font-size:30px;"></i><br><br>
-                            <p class="icon_text pl-3">Music, Cricket, travelling..</p>
-                        </div>
-                        <div class="d-flex flex-row justify-content-start pt-3">
-                            <i class="fa-globe fa-solid " style="color: aliceblue; font-size:30px; "></i><br><br>
-                            <p class="icon_text pl-3">https://www.linkedin.com/in/darasanr/</p>
-                        </div>
-                    </div>
-                    <div class="d-block d-md-none mt-5 mb-5 text-right">
-                        <button class="btn btn-danger cv_button" target="_blank">
-                            <div class="d-flex flex-row justify-content-center">
-                                <p class="cv_button_para">View CV</p>
-                                <i class="fa fa-arrow-down cv_button_icon pt-2 pl-2"></i>
-                            </div>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>   
-    </div>
-    <div>
-        <hr class="all_line"><br>
-    </div>
-</div>
-
-
-<!--Skill Page-->
-
-<div class="home_page_bg" id="skill_background">
-    <div id="skillpagesection">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="skill_page_main_h1 pb-4 text-center">Skills</h1>
-                    <h1 class="skill_page_main_h2">PROGRAMING  SKILLS</h1>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Good">
-                            <p class="peg_front_line w-75">Good</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1678565626/919826_qubyt5.png" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Good">
-                            <p class="peg_front_line w-75">Good</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://img.freepik.com/premium-photo/python-programming-code-abstract-technology-background_272306-146.jpg?w=1060" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Good">
-                            <p class="peg_front_line w-75">Good</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1678565057/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986_fzhge7.jpg" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Beginning">
-                            <p class="peg_front_line w-25">Beginning</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <h1 class="skill_page_main_h2 pt-5">FRAMEWORKS</h1>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://th.bing.com/th/id/OIP.7b3l7TsR_KLZ37efiSQL8QAAAA?pid=ImgDet&rs=1" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Good">
-                            <p class="peg_front_line w-75">Good</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <h1 class="skill_page_main_h2 pt-5">TOOLS KNOWN</h1>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://th.bing.com/th/id/OIP.lpP7YTQOWgymqTyUbfxocgHaFH?pid=ImgDet&rs=1" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Intermediate">
-                            <p class="peg_front_line w-50">Intermediate</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Beginning">
-                            <p class="peg_front_line w-25">Beginning</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://as2.ftcdn.net/v2/jpg/02/50/39/63/1000_F_250396352_2AAgVSEFNdZLtJwAgN4oNM1ty6ezUaEM.jpg" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Beginning">
-                            <p class="peg_front_line w-25">Beginning</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <h1 class="skill_page_main_h2 pt-5">COMMUNICATION SKILL</h1>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1663264718/tamil_avgkjl.jpg" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Speak, Read, Write">
-                            <div class="peg_front_line w-100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1663264861/marathi_uxmk9w.jpg" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Mother Toung">
-                            <div class="peg_front_line w-100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1663264661/english_dmtjdz.jpg" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Speak, Read, Write">
-                            <div class="peg_front_line w-100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1663264859/hindhi_dgvndr.webp" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Speak, Read, Write">
-                            <div class="peg_front_line w-75"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1663265041/telugu_qkyemy.png" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Speaking">
-                            <div class="peg_front_line w-50"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 mt-5">
-                    <div class="d-flex flex-row justify-content-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1663265041/kannada_vzoazs.jpg" class="shadow img_edit"/>
-                        <div class="peg_back_line w-100 ml-5 mt-4" title="Speaking">
-                            <div class="peg_front_line w-50"></div>
-                        </div>
+                        <button class="home_btn"><a href="https://drive.google.com/file/d/1aOO4C6-aL3ot4JcHHgCEXi7wBQNhEVqY/view?usp=sharing" target="_blank" style="text-decoration: none; color: #2ec69b;">View Resume <img src="../images/up-right.png" alt=""></a></button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div>
-        <hr class="all_line"><br>
-    </div>
-</div>
-
-
-<!--achievement page-->
-
-
-<div class="home_page_bg " id="achievement_background">
-    <div id="achievementpagesection">
+        <!--About Me Page-->
+        <div class="container">
+            <div class="row">
+                <h1 class="aboutH1">ABOUT ME</h1>
+                <div class="col-12">
+                    <div style="display: flex; flex: wrap; justify-content: space-between; align-items: center;">
+                        <p class="proverb">“If you want to shine like a sun,
+                            <br class="d-block d-md-none"> first burn like a sun. "</p>
+                        <p class="apj ">- APJ Abdul Kalam</p>
+                    </div>
+                    <p class="aboutP ">&#x1F4BB My technological career began in eleventh grade. I was captivated by the inner workings of technology as well as how application designs work. I am now prepared to apply my knowledge to.
+                        <span style="color:#2ec69b; font-weight: 600; ">Full stack Developer, Web Designer </span>projects.</p>
+                    <p class="aboutP ">&#x1F468 I've had some industry related work experience up to this point, and I've been exposed to a lot of technical environments. I cherished working with real businesses to address real issues. I can able to work in a dynamic team
+                        environment.
+                    </p>
+                    <p class="aboutP"></p>
+                </div>
+            </div>
+        </div>
+        <!--Education Qualification-->
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="skill_page_main_h1">Achievement</h1>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="achievement_card shadow-lg pt-5 pl-5 pr-5 pb-3 m-4">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1663416795/undraw_web_developer_re_h7ie_t4aab7.svg" class="h-100 w-100"/>
-                        <h1 class="achievement_card_h1 text-left mt-4">web Development</h1>
-                        <p class="achievement_card_para mt-3"> I have been cracked the first prize at Web Development compitation Organized by the School of Computing ( INFOSPARK 2K22), Department of Information Technology (IT) on Aprile 29th 2022...</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="achievement_card shadow-lg pt-5 pl-5 pr-5 pb-3 m-4">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1676388451/indipendence_day_n6zrkj.jpg" class=" h-100 w-100"/>
-                        <h1 class="achievement_card_h1 text-left mt-4">Independence day mega challenge</h1>
-                        <p class="achievement_card_para mt-3"> 	I've got selected at Top 10 in the Independence Day mega challenge conducted by the NxtWave (CCBP.4.0 academic). on 17th August 2022...</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="achievement_card shadow-lg pt-5 pl-5 pr-5 pb-3 m-4">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1691163749/vector-concept-illustration-programmer-engineer-with-laptop-sitting-office-desk-holding-pen-while-coding-developing-flat-cartoon-style_270158-379.jpg_skr0pa.jpg" class=" h-100 w-100"/>
-                        <h1 class="achievement_card_h1 text-left mt-4">Coding Mania </h1>
-                        <p class="achievement_card_para mt-3"> I have wone the 3rd prize at the computation of coding mania organized by the Kongu Engineering College department of Computer Technology - PG MSC (Software Systems).</p>
-                    </div>
+                    <h1 class="EducationH1">EDUCATION</h1>
+                    <!--College-->
+                    <h3>Kalasalingam Academy of Reserach and Education</h3>
+                    <h5>B.Tech - Computer Science and Engineering (Cyber Security and Forensics)</h5>
+                    <p class="dateP">October 2021 - Present <span style="color: #2ec69b; filter: drop-shadow(2px 2px 4px #2e2e2e);"> *</span></p>
+                    <hr>
+                    <!--School-->
+                    <h3>Shri Maruthi Matric HR SEC School</h3>
+                    <h5>12th - Computer Science (MPCC)</h5>
+                    <p class="dateP">June 2020 - May 2021</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div>
-        <hr class="all_line"><br>
-    </div>
-</div>
-
-
-<!--Footer page-->
-
-
-<div class="home_page_bg" id="footer_background">
-    <div id="contectpagesection">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-5">
-                    <div class="d-flex flex-row justify-content-center justify-content-md-start">
-                        <img src="https://res.cloudinary.com/dryj2tavq/image/upload/v1661524855/-1_orig_1_d3qngi.jpg" class="footer_page_img"/>
-                        <div class="pl-3">
-                            <h1 class="footer_page_h1">Darasan</h1>
-                            <p class="footer_page_para">Frontend Developer</p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row justify-content-center mt-4 justify-content-md-start">
-                        <a href="https://github.com/shanmugamtech" target="_blank"><button class="social_media_btn ml-1"><i class="fa fa-github" id="github"></i> &nbsp;</button></a>&nbsp;
-                        <a href="https://www.instagram.com/x_shanmugam_26_x/" target="_blank"><button class="social_media_btn ml-1"><i class="fa fa-instagram" id="instagram"></i> &nbsp;</button></a>&nbsp;
-                        <a href="https://twitter.com/rdarasan26/" target="_blank"><button class="social_media_btn ml-1"><i class="fa fa-twitter" id="twitter"></i> &nbsp;</button></a>&nbsp;
-                        <a href="https://www.linkedin.com/in/darasanr/" target="_blank"><button class="social_media_btn ml-1"><i class="fa fa-linkedin" id="linkedin"></i>&nbsp;</button></a>&nbsp;
-                    </div>
-                    <p class="mt-3 mb-5 footer_address_para text-center text-md-left" id="footer_address_para_change">Nachikuppam village & post, <br> Krishnagiri DT - 635121, <br> Tamil Nadu </p>
-                </div>
-                <div class="col-6 col-md-4 mb-5">
-                    <h1 class="footer_page_contact_us_h1 text-center">Get In Touch</h1>
-                    <a href="https://wa.me/9361547043" target="_blank">
-                        <div class="d-flex flex-row justify-content-start pt-2">
-                            <i class="fa fa-whatsapp footer_page_contact_us_icon" id="whatsapp"></i>
-                            <p class="footer_page_contact_us_para pl-2">whatsapp</p>
-                        </div>
-                    </a>
-                    <a href="mailto:shanmugamdarasan@gmail.com" target="_blank">
-                        <div class="d-flex flex-row justify-content-start pt-2">
-                            <i class="fa fa-envelope footer_page_contact_us_icon" id="email"></i>
-                            <p class="footer_page_contact_us_para pl-2">E - Mail</p>
-                        </div>
-                    </a>
-                    <a href="https://join.skype.com/invite/xX1wsIMilljD" target="_blank">
-                        <div class="d-flex flex-row justify-content-start pt-2">
-                            <i class="fa fa-skype footer_page_contact_us_icon" id="skype"></i>
-                            <p class="footer_page_contact_us_para pl-3">Skype</p>
-                        </div>
-                    </a>
-                    <a href="tg://resolve?domain=Dora_buji_2645" target="_blank">
-                        <div class="d-flex flex-row justify-content-start pt-2">
-                            <i class="fa fa-telegram footer_page_contact_us_icon" id="telagram"></i>
-                            <p class="footer_page_contact_us_para pl-3">Telegram</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 col-md-3 mb-5">
-                    <div class="d-flex flex-row justify-content-end">
-                        <ul class="ml-5 mt-5 footer_page_wise_para">
-                            <a href="#homepagesection"><div style="color: aliceblue;"><li class="pt-3 footer_page_list" id="footer_home_change">Home</li></div></a>
-                            <a href="#aboutpagesection"><div style="color: aliceblue;"><li class="pt-3 footer_page_list" id="footer_about_me_change">About Me</li></div></a>
-                            <a href="#skillpagesection"><div style="color: aliceblue;"><li class="pt-3 footer_page_list" id="footer_skills_change">Skills</li></div></a>
-                            <a href="#achievementpagesection"><div style="color: aliceblue;"><li class="pt-3 footer_page_list" id="footer_achievement_change">Achievement</li></div></a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <!--Contact footer-->
+        <div class="contactFooter">
+            <a href="https://www.linkedin.com/in/darasanr/" target="_blank"><i class="fa fa-solid fa-linkedin-square"></i></a>
+            <a href="https://github.com/shanmugamtech" target="_blank"><i class="fa fa-light fab fab fab fa-github-square"></i></a>
+            <a href="https://www.youtube.com/@crackingtech2645" target="_blank"><i class="fa fa-solid fa-youtube"></i></a>
+            <a href="https://www.instagram.com/x_shanmugam_26_x/" target="_blank"><i class="fa fa-solid fa-instagram"></i></a>
+            <a href="mailto:shanmugamdarasan@gamil.com?subject=Regarding Job"><i class="fa fa-solid fa-envelope"></i></a>
+            <a href="tel:+919361547043"><i class="fa fa-solid fa-phone"></i></a>
         </div>
     </div>
-</div>
-
-
-<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
+
 </html>
