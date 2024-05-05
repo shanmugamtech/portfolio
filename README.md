@@ -3,16 +3,12 @@
 This is I have done using HTML,CSS,JS,Botstrap 
 
 1. ***Home Page***
-
-![image](https://github.com/shanmugamtech/portfolio/assets/107739312/e808beea-a873-4740-a559-dc4d0c487b5a)
-![image](https://github.com/shanmugamtech/portfolio/assets/107739312/5944dd39-e9ce-4ed4-9e42-fb9448810173)
+![Home Page](https://github.com/shanmugamtech/portfolio/assets/107739312/e325bdd1-d9a9-4dca-8225-59a241f685f3)
 
 2. ***About Page***
-
-![image](https://github.com/shanmugamtech/portfolio/assets/107739312/60a59f40-8045-437c-a17c-4d7f3b88f06d)
+![About Page](https://github.com/shanmugamtech/portfolio/assets/107739312/b85d7507-5da2-42e0-8bfb-108b78a8cb58)
 
 3. ***Achievement***
-
-![image](https://github.com/shanmugamtech/portfolio/assets/107739312/1eb99549-7445-45d5-bbae-5afea5f679fa)
-
-![image](https://github.com/shanmugamtech/portfolio/assets/107739312/d3f92f69-0dc6-4047-8ef6-a0e135714ad2)
+![Achievement Page](https://github.com/shanmugamtech/portfolio/assets/107739312/7caf1563-377b-43ba-be6f-ce7c7b2ea7d8)
+4. ***Contact Page***
+![Contact Page](https://github.com/shanmugamtech/portfolio/assets/107739312/42cb00fd-5ed8-4b3f-a71a-463ea9928646)
