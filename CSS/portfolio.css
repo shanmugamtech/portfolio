@@ -229,12 +229,12 @@
 .animated-text span::after {
     content: "";
     position: absolute;
-    width: calc(100% + 4px);
-    height: 100%;
+    width: calc(100% + 8px);
+    height: 50%%;
     background-color: #34353A;
     border-left: 2px solid #2ec69b;
     right: -8px;
-    white-space: nowrap;
+    white-space: wrap;
     animation: cursor .8s infinite, typing 15s steps(10) infinite;
 }
 
