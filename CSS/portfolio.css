@@ -281,11 +281,14 @@
 
 /*About ME*/
 
-.aboutH1 {
-    color: #ffffff;
-    border-bottom: 4px solid #2ec69b;
-    text-align: left;
-    font-weight: 500;
+/*About ME*/
+
+#achie_h1 {
+    color: #2ec69b;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding-top: 20px;
 }
 
 .aboutP {
@@ -304,7 +307,6 @@
 .apj {
     color: #ffffff;
 }
-
 
 /*Education Qualification*/
 
