@@ -11,6 +11,7 @@
 
 .home_page_bg {
     background: #34353A;
+    overflow: auto;
 }
 
 
@@ -281,6 +282,7 @@
 
 /*About ME*/
 
+
 /*About ME*/
 
 #achie_h1 {
@@ -307,6 +309,7 @@
 .apj {
     color: #ffffff;
 }
+
 
 /*Education Qualification*/
 
