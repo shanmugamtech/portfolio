@@ -207,10 +207,18 @@
     margin-top: 20px;
 }
 
+.home_btn a {
+    text-decoration: none;
+    color: #2ec69b;
+}
+
 .home_btn:hover {
     border: 3px solid #fff;
-    color: #2ec69b;
     filter: drop-shadow(2px -2px 5px #00ffbb);
+}
+
+.home_btn a:hover {
+    color: #fff;
 }
 
 .animated-text {
