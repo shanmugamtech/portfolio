@@ -12,6 +12,7 @@
 .home_page_bg {
     background: #34353A;
     overflow: auto;
+    padding: 20px;
 }
 
 
@@ -291,6 +292,7 @@
     font-weight: 600;
     letter-spacing: 0.1em;
     padding-top: 20px;
+    margin-top: 50px;
 }
 
 .aboutP {
