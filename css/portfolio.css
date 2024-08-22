@@ -224,7 +224,7 @@
 .animated-text {
     font-size: 34px;
     font-weight: 600;
-    min-width: 280px;
+    min-width: 250px;
     color: #ffffff;
 }
 
@@ -235,58 +235,52 @@
 .animated-text span::before {
     content: "Web Developer";
     color: #2ec69b;
-    animation: words 20s infinite;
+    animation: words 18s infinite;
 }
 
 .animated-text span::after {
     content: "";
     position: absolute;
-    width: calc(100% + 8px);
+    width: 0;
     height: 100%;
     background-color: #34353A;
-    /*border-left: 2px solid #2ec69b;*/
     right: -8px;
     white-space: nowrap;
-    animation: cursor .8s infinite, typing 15s steps(10) infinite;
+    animation: cursor .8s infinite, typing 6s steps(20) infinite;
 }
 
 @keyframes cursor {
-    to {
+    50% {
         border-left: 2px solid #34353A;
     }
 }
 
 @keyframes words {
     0%,
-    35% {
+    33% {
         content: "Web Developer";
     }
-    36%,
-    70% {
+    34%,
+    66% {
         content: "Frontend Developer";
     }
-    71%,
+    67%,
     100% {
         content: "Web Designer";
     }
 }
 
 @keyframes typing {
-    16%,
-    25%,
-    53%,
-    60%,
-    86%,
-    92% {
+    0%,
+    10%,
+    90%,
+    100% {
         width: 0;
     }
-    8%,
-    35%,
-    43%,
-    70%,
-    78%,
-    97% {
-        width: calc(100% + 8px);
+    40%,
+    50%,
+    60% {
+        width: calc(100% + 6px);
     }
 }
 
