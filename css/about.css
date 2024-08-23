@@ -29,6 +29,12 @@
     font-size: small;
 }
 
+@media (max-width: 525px) {
+    .navbar_elem li a {
+        font-size: xx-small;
+    }
+}
+
 .navbar_elem li:hover {
     text-decoration: underline #2ec69b 2px;
     transform: translateX(-10px);
@@ -165,6 +171,8 @@ li::marker {
 
 .contactFooter a:hover {
     transform: translateY(-10px);
-    border: 3px solid #2ec69b;
     transition-duration: .5s;
+    border: 3px solid #2ec69b;
+    color: #fff;
+    filter: drop-shadow(2px 2px 5px #2ec69b);
 }

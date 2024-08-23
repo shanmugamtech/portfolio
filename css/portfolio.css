@@ -287,6 +287,8 @@
 
 /*Home icon*/
 
+.home_text {}
+
 .home_icon i {
     font-size: 20px;
     padding: 10px;
@@ -428,4 +430,6 @@ li::marker {
     transform: translateY(-10px);
     transition-duration: .5s;
     border: 3px solid #2ec69b;
+    color: #fff;
+    filter: drop-shadow(2px 2px 5px #2ec69b);
 }
