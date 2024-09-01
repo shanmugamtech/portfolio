@@ -12,3 +12,5 @@ if (toggleButton && navElement) {
         navElement.classList.toggle('active');
     });
 }
+// Initialize AOS
+AOS.init();

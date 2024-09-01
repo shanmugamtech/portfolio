@@ -73,12 +73,14 @@
 
 .contact_main i {
     color: white;
+    font-size: small;
 }
 
 .contact_main p {
     color: white;
     padding-left: 2rem;
     text-align: center;
+    font-size: auto;
 }
 
 
