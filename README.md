@@ -18,7 +18,7 @@ This is I have done using HTML,CSS,JS,Botstrap
 4. ***Skill Page***
    ![Skill Page](https://github.com/user-attachments/assets/a5289335-c3d3-49d2-93b7-5c0ba2617401)
 
-4. ***Contact Page***
+5. ***Contact Page***
 ![Contact Page](https://github.com/user-attachments/assets/deee67fb-5264-4936-a10e-29c4b1c065e7)
 
 
