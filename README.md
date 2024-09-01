@@ -3,13 +3,22 @@
 This is I have done using HTML,CSS,JS,Botstrap 
 
 1. ***Home Page***
-![Home Page](https://github.com/shanmugamtech/portfolio/assets/107739312/e325bdd1-d9a9-4dca-8225-59a241f685f3)
+
+![Home Page](https://github.com/user-attachments/assets/672a1faf-fdaf-4f35-b919-ef129d878381)
 
 2. ***About Page***
-![About Page](https://github.com/shanmugamtech/portfolio/assets/107739312/b85d7507-5da2-42e0-8bfb-108b78a8cb58)
+
+![About Page](https://github.com/user-attachments/assets/9530b542-0228-4a90-a0bd-17d8d8d60714)
+
+![About Page](https://github.com/user-attachments/assets/fbebb887-dcc1-4061-868a-0cc7559cd99e)
 
 3. ***Achievement***
-![Achievement Page](https://github.com/shanmugamtech/portfolio/assets/107739312/7caf1563-377b-43ba-be6f-ce7c7b2ea7d8)
+![Achievement Page](https://github.com/user-attachments/assets/6dbc5705-a8e1-4bd3-9ba7-964475acbf8d)
+
+4. ***Skill Page***
+   ![Skill Page](https://github.com/user-attachments/assets/a5289335-c3d3-49d2-93b7-5c0ba2617401)
+
 4. ***Contact Page***
-![Contact Page](https://github.com/shanmugamtech/portfolio/assets/107739312/42cb00fd-5ed8-4b3f-a71a-463ea9928646)
+![Contact Page](https://github.com/user-attachments/assets/deee67fb-5264-4936-a10e-29c4b1c065e7)
+
 
