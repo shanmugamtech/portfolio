@@ -78,6 +78,22 @@
     text-align: justify;
 }
 
+.certificate_image {
+    width: 100%;
+}
+
+
+/*Poop Up */
+
+.popup_card {
+    color: #2ec69b;
+    background-color: #64e3ca15;
+}
+
+.main_card {
+    background-color: #34353A;
+}
+
 
 /*Contact footer*/
 
