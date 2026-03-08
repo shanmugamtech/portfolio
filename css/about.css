@@ -72,7 +72,9 @@
     word-spacing: 0.5em;
     padding-top: 1em;
 }
-
+.aboutP li {
+    text-transform: capitalize;
+}
 .proverb {
     font-style: italic;
     padding-top: 1em;
